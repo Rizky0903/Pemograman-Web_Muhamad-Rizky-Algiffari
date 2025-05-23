@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Hotel</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      width: 100%;
+      background-color: grey; 
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    main {
+      margin-top: 100px; 
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      gap: 40px;
+    }
+
+    .gambar-kiri {
+      width: 600px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .konten-kanan {
+      max-width: 400px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .konten-kanan h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #00398d;
+    }
+
+    .konten-kanan p {
+      margin-bottom: 10px;
+    }
+
+    .konten-kanan .section {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+    }
+    .judul-besar {
+  margin-top: 80px; 
+  text-align: center;
+  }
+
+.judul-besar h1 {
+  font-size: 60px;
+  color: #8c6d20; 
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Golden Hotel</div>
+    <nav>
+      <ul>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="kamar.html">KAMAR</a></li>
+        <li><a href="event.html">MEETING/EVENTS</a></li>
+        <li><a href="lokasi.html">LOKASI</a></li>
+        <li><a href="profile.html">PROFIL</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="judul-besar">
+    <h1>Golden Hotel</h1>
+  </div>
+
+  <main>
+    <img src="lokasi.jpg" alt="Golden Hotel" class="gambar-kiri">
+    
+    <div class="konten-kanan">
+      <div class="section">
+        <h3>MAKE A BOOKING</h3>
+        <p>📅 05/05/2025</p>
+        <p>🕒 20:30</p>
+        <p>👤 6 people</p>
+        <button>Find a Table</button>
+        <button>Booking</button>
+      </div>
+
+      <div class="section">
+        <h3>OPENING TIMES</h3>
+        <p>Resort: Open till late</p>
+        <p>Monday–Friday: 07.00 – 23.30</p>
+        <p>Saturday: 10.00 – 22.00</p>
+        <p>Sunday: 10.00 – 17.00</p>
+        <button>More</button>
+        <button>Booking</button>
+      </div>
+
+      <div class="section">
+        <h3>CONTACT</h3>
+        <p>11-13 Plaza Market<br>Sudirman EC1R 4EG</p>
+        <p><a href="#" style="color:#00398d;">View map</a></p>
+        <p>📞 +123-345-4096</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
